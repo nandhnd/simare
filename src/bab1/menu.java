@@ -13,6 +13,12 @@ public class menu {
     private String nama;
     private double harga;
     private String jenis;
+    
+    public menu(){
+        this.nama = "Belum Di Set";
+        this.harga = 0;
+        this.jenis = "Belum Di Set";        
+    }
 
     // Getter dan Setter untuk nama makanan
     public String getNama() {

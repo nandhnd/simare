@@ -12,14 +12,16 @@ public class main {
     public static void main(String[] args) {
         // Membuat objek Menu tunggal
         menu menu1 = new menu();
+        System.out.println("Menu di Restoran:");
+        menu1.tampilkanMenu();
 
-        // Menggunakan setter untuk mengatur nilai atribut
+//         Menggunakan setter untuk mengatur nilai atribut
         menu1.setNama("Nasi Goreng");
         menu1.setHarga(25000);
         menu1.setJenis("Makanan Berat");
 
         // Menampilkan menu
-        System.out.println("Menu di Restoran:");
+        System.out.println("======================");
         menu1.tampilkanMenu();
     }
 }
